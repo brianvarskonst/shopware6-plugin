@@ -1,0 +1,33 @@
+{
+    "name": "brianvarskonst/shopware6-plugin",
+    "description": "Shopware 6 Plugin Template",
+    "type": "shopware-platform-plugin",
+    "license": "MIT",
+    "version": "0.0.1",
+    "autoload": {
+        "psr-4": {
+            "Brianvarskonst\\Plugin\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.4 || ^8.0"
+    },
+    "authors": [
+        {
+            "name": "Brian Schäffner",
+            "email": "burnify.design@gmail.com",
+            "homepage": "https://coming.soom"
+        }
+    ],
+    "extra": {
+        "shopware-plugin-class": "Plugin",
+        "plugin-icon": "src/Resources/config/plugin.png",
+        "label": {
+            "de-DE": "Shopware 6 Plugin Template",
+            "en-GB": "Shopware 6 Plugin Template"
+        }
+    },
+    "require-dev": {
+        "phpro/grumphp-shim": "^1.0"
+    }
+}
